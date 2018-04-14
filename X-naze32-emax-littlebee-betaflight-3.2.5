@@ -1,0 +1,32 @@
+# diff
+# Betaflight / NAZE (AFNA) 3.2.5 Feb 11 2018 / 00:40:11 (6e69ff00c) MSP API: 1.36
+name X-quad-strong
+
+feature -RX_PPM
+feature RX_PARALLEL_PWM
+aux 0 0 0 1500 2100
+set baro_hardware = NONE
+set min_check = 1010
+set max_check = 1990
+set fpv_mix_degrees = 18
+set min_throttle = 1030
+set failsafe_off_delay = 70
+set failsafe_throttle = 1300
+set failsafe_procedure = AUTO-LAND
+set deadband = 2
+set yaw_deadband = 5
+profile 0
+
+set setpoint_relax_ratio = 30
+set dterm_setpoint_weight = 190
+set i_pitch = 75
+set i_roll = 67
+set i_yaw = 55
+rateprofile 0
+
+set rc_rate = 180
+set rc_expo = 35
+set rc_expo_yaw = 35
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 60

@@ -1,0 +1,41 @@
+name H-quad-strong
+
+feature -RX_PPM
+feature RX_PARALLEL_PWM
+aux 0 0 0 1500 2100
+adjrange 0 1 1 1925 2100 12 1
+set gyro_sync_denom = 4
+set baro_hardware = NONE
+set mid_rc = 1507
+set min_check = 1017
+set max_check = 1998
+set fpv_mix_degrees = 18
+set min_throttle = 1040
+set failsafe_off_delay = 70
+set failsafe_throttle = 1300
+set failsafe_procedure = AUTO-LAND
+set battery_meter = NONE
+set deadband = 8
+set yaw_deadband = 10
+set pid_process_denom = 2
+profile 0
+
+set anti_gravity_gain = 2000
+set setpoint_relax_ratio = 30
+set dterm_setpoint_weight = 190
+set p_pitch = 67
+set i_pitch = 55
+set d_pitch = 40
+set p_roll = 55
+set i_roll = 48
+set d_roll = 38
+set i_yaw = 60
+rateprofile 0
+
+set rc_rate = 190
+set rc_rate_yaw = 150
+set rc_expo = 75
+set rc_expo_yaw = 75
+set roll_srate = 50
+set pitch_srate = 50
+set yaw_srate = 50
